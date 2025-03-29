@@ -9,38 +9,33 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
-
 Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
-
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+===
+* **Head of Application Development** at [The Metropolitan Museum of Art](https://www.metmuseum.org/)  
+  1000 Fifth Avenue, NY, NY 10028  
+  2014-present
+* **Media Technology Developer** at [Museum of Modern Art](https://www.moma.org/)  
+  11 53rd Street, New York, NY
+  2007 — 2014
+* **Technologist** at [WNYC](https://www.wnyc.org/)  
+  New York  
+  2006 — 2007
+* **Special Projects Technologist** at [AV&C](https://www.av-controls.com/)  
+  New York, NY  
+  2006 — 2007
+* **Business Analyst, Team Lead** at [ASCAP](https://www.ascap.com/)
+  New York
+  1996 — 2005
+* **Webmaster** at [Anthology Film Archives](https://www.anthologyfilmarchives.org/)  
+  New York, NY  
+  1998 — 2000
+* **Co-founder** Fluid Ounce Records
+  New York, NY
+  1996-1999
+* **Music Buyer** at [Mondo Kim's](https://en.wikipedia.org/wiki/Kim%27s_Video_and_Music)  
+  New York
+  1996
   
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
-
 Publications
 ======
   <ul>{% for post in site.publications reversed %}
@@ -59,6 +54,21 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Service and leadership
+Education
 ======
-* Currently signed in to 43 different slack teams
+* **Masters of Professional Studies (M.P.S.), Interactive Telecommunications Program**  
+  New York University  
+  2004 — 2006
+* **Audio Engineering Certificate**  
+  The New School  
+  2000
+* **Bachelors of Arts (B.A.), German Language and Literature**  
+  Boston University  
+  1992 — 1994
+* **Germanistik**  
+  Universität Heidelberg  
+  1993 - 1994
+
+Volunteering
+======
+
