@@ -48,13 +48,13 @@ Teaching
   
 Education
 ======
-* **Masters of Professional Studies (M.P.S.), Interactive Telecommunications Program**  
+* **Master of Professional Studies (M.P.S.), Interactive Telecommunications Program**  
   New York University  
   2004 — 2006
 * **Audio Engineering Certificate**  
   The New School  
   2000
-* **Bachelors of Arts (B.A.), German Language and Literature**  
+* **Bachelor of Arts (B.A.), German Language and Literature**  
   Boston University  
   1992 — 1994
 * **Germanistik Austauschprogram**  
