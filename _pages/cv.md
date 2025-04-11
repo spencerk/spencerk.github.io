@@ -12,28 +12,20 @@ redirect_from:
 Work experience
 ===
 * **Head of Application Development** at [The Metropolitan Museum of Art](https://www.metmuseum.org/)  
-  1000 Fifth Avenue, NY, NY 10028  
-  2014-present
+  2014 — present
 * **Media Technology Developer** at [Museum of Modern Art](https://www.moma.org/)  
-  11 53rd Street, New York, NY
   2007 — 2014
 * **Technologist** at [WNYC](https://www.wnyc.org/)  
-  New York  
   2006 — 2007
 * **Special Projects Technologist** at [AV&C](https://www.av-controls.com/)  
-  New York, NY  
   2006 — 2007
-* **Business Analyst, Team Lead** at [ASCAP](https://www.ascap.com/)
-  New York
+* **Business Analyst** at [ASCAP](https://www.ascap.com/)  
   1996 — 2005
 * **Webmaster** at [Anthology Film Archives](https://www.anthologyfilmarchives.org/)  
-  New York, NY  
   1998 — 2000
-* **Co-founder** Fluid Ounce Records
-  New York, NY
-  1996-1999
+* **Co-founder** at Fluid Ounce Records  
+  1996 — 1999
 * **Music Buyer** at [Mondo Kim's](https://en.wikipedia.org/wiki/Kim%27s_Video_and_Music)  
-  New York
   1996
   
 Publications
@@ -65,7 +57,7 @@ Education
 * **Bachelors of Arts (B.A.), German Language and Literature**  
   Boston University  
   1992 — 1994
-* **Germanistik**  
+* **Germanistik Austauschprogram**  
   Universität Heidelberg  
   1993 - 1994
 
