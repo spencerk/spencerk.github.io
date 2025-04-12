@@ -1,6 +1,6 @@
 ---
 title: MoMA Mobile
-date: Tue, 30 Jul 2013 11:28:53 +0000
+date: Tue, 30 Jul 2010 11:28:53 +0000
 collection: portfolio
 category: products
 institution: MoMA
