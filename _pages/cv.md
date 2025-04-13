@@ -13,21 +13,20 @@ Work experience
 ===
 * **Senior Manager, Application Development** at [The Metropolitan Museum of Art](https://www.metmuseum.org/)  
   2021 — present  
-  Led team migrating metmuseum.org from on-prem, proprietary, CMS to new, cloud stack (Vercel, Sanity, ElasticSearch).  Refactor with an emphasis on rigorous domain-modeling, code review, automated testing, devOps, and monitoring.
 * **Lead Developer, Collection** at [The Metropolitan Museum of Art](https://www.metmuseum.org/)  
   2016 — 2021  
-  Led the team designing and building the collection API, supporting online collection and the Open Access public API. 
 * **Manager of Media Technology, Digital** at [The Metropolitan Museum of Art](https://www.metmuseum.org/)  
   2014 — 2016  
-  Spun up small team that supported the Met App, Audio Guide, and various in-gallery interactives across several platforms (iOS, Android, mobile web, custom software). Team pioneered the usage of open-source software (Golang, Postgres, Python) at the Met, which resulted in significant cost saving. We also implemented test- and documentation-driven development, and helped establish agile methodologies in the Digital department.
 * **Media Technology Developer** at [Museum of Modern Art](https://www.moma.org/)  
   2007 — 2014
 * **Technologist** at [WNYC](https://www.wnyc.org/)  
   2006 — 2007
 * **Special Projects Technologist** at [AV&C](https://www.av-controls.com/)  
   2006 — 2007
-* **Business Analyst** at [ASCAP](https://www.ascap.com/)  
-  1996 — 2005
+* **Business Analyst, Licensing** at [ASCAP](https://www.ascap.com/)  
+  2001 — 2005
+* **Team Lead, International Distribution** at [ASCAP](https://www.ascap.com/)  
+  1996 — 2001
 * **Webmaster** at [Anthology Film Archives](https://www.anthologyfilmarchives.org/)  
   1998 — 2000
 * **Co-founder** at Fluid Ounce Records  
