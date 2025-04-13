@@ -3,9 +3,9 @@ title: Fermata
 excerpt: Auditory calendar for the visually impaired.<br /><img src='/images/portfolio/fermata-300w.png'>
 date: Sat, 16 Jul 2005 00:06:56 +0000
 collection: portfolio
-category: prototype
+category: software
 institution: ITP
-tags: accessibility, design-expo
+tags: accessibility, design-expo, prototype
 ---
 <img src='/images/portfolio/fermata.jpg'>
 
