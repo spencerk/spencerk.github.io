@@ -1,5 +1,5 @@
 ---
-title: Mermaid / Manatee exhibit
+title: Mermaid / Manatee periscope software 
 date: Sun, 14 Jul 2013 14:39:33 +0000
 collection: portfolio
 category: exhibition
