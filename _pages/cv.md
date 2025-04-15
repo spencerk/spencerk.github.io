@@ -9,38 +9,31 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
-
 Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
-
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+===
+* **Senior Manager, Application Development** at [The Metropolitan Museum of Art](https://www.metmuseum.org/)  
+  2021 — present  
+* **Lead Developer, Collection** at [The Metropolitan Museum of Art](https://www.metmuseum.org/)  
+  2016 — 2021  
+* **Manager of Media Technology, Digital** at [The Metropolitan Museum of Art](https://www.metmuseum.org/)  
+  2014 — 2016  
+* **Media Technology Developer** at [Museum of Modern Art](https://www.moma.org/)  
+  2007 — 2014
+* **Technologist** at [WNYC](https://www.wnyc.org/)  
+  2006 — 2007
+* **Special Projects Technologist** at [AV&C](https://www.av-controls.com/)  
+  2006 — 2007
+* **Business Analyst, Licensing** at [ASCAP](https://www.ascap.com/)  
+  2001 — 2005
+* **Team Lead, International Distribution** at [ASCAP](https://www.ascap.com/)  
+  1996 — 2001
+* **Webmaster** at [Anthology Film Archives](https://www.anthologyfilmarchives.org/)  
+  1998 — 2000
+* **Co-founder** at Fluid Ounce Records  
+  1996 — 1999
+* **Music Buyer** at [Mondo Kim's](https://en.wikipedia.org/wiki/Kim%27s_Video_and_Music)  
+  1996
   
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
-
 Publications
 ======
   <ul>{% for post in site.publications reversed %}
@@ -59,6 +52,21 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Service and leadership
+Education
 ======
-* Currently signed in to 43 different slack teams
+* **Master of Professional Studies (M.P.S.), Interactive Telecommunications Program**  
+  New York University  
+  2004 — 2006
+* **Audio Engineering Certificate**  
+  The New School  
+  2000
+* **Bachelor of Arts (B.A.), German Language and Literature**  
+  Boston University  
+  1992 — 1994
+* **Germanistik Austauschprogram**  
+  Universität Heidelberg  
+  1993 - 1994
+
+Volunteering
+======
+
