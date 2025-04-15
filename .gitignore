@@ -8,6 +8,20 @@ local/
 # Ignore the Gemfile that is generated
 Gemfile.lock
 
-# Ingore files created by npm
-node_modules
+# Ignore files created by npm
+node_modules/
 package-lock.json
+
+# System and IDE files
+.DS_Store
+.vscode/
+
+# Log and temporary files
+*.log
+tmp/
+
+# Sensitive configuration
+_config_docker.yml
+
+# Compiled or minified files
+assets/js/main.min.js
