@@ -12,11 +12,21 @@ redirect_from:
 Work experience
 ===
 * **Senior Manager, Application Development** at [The Metropolitan Museum of Art](https://www.metmuseum.org/)  
-  2021 — present  
+ 2021 — present  
+  - Led major digital modernization including migration from legacy Sitecore CMS to modern cloud-based architecture (Next/Sanity). 
+  - Transformed development practices through containerization, automated testing, and modernized CI/CD pipeline 
+  - Prioritized agile, iterative development and improving developer experience.
 * **Lead Developer, Collection** at [The Metropolitan Museum of Art](https://www.metmuseum.org/)  
   2016 — 2021  
+  - Led team that designed and built microservices architecture transforming internal collection data for public access
+  - Contributed to defining and implementing The Met's Open Access Initiative, generating over 1.2 billion views and 7 million downloads
+  - Developed APIs using Go and open-source technologies, saving tens of thousands annually in licensing fees
+  - Championed test- and documentation-driven development practices and established agile methodologies
 * **Manager of Media Technology, Digital** at [The Metropolitan Museum of Art](https://www.metmuseum.org/)  
   2014 — 2016  
+  - Managed team developing mobile ecosystem including The Met App, Audio Guide, and in-gallery kiosks plus their APIs
+  - Led strategic pivot to building Codex - shared services connecting disparate Museum datasets and applications
+  - Partnered with external consultants to elevate team capabilities in agile and test-driven development practices
 * **Media Technology Developer** at [Museum of Modern Art](https://www.moma.org/)  
   2007 — 2014
 * **Technologist** at [WNYC](https://www.wnyc.org/)  
