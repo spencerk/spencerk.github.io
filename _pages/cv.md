@@ -19,7 +19,7 @@ Work experience
   Designed and built ETL pipelines and APIs supporting [The Met's Collection](https://www.metmuseum.org/art/collection) and [The Met's Open Access](https://www.metmuseum.org/about-the-met/policies-and-documents/open-access) Initiative. Significantly improved worldwide collection object page performance while championing adoption of modern technologies including IIIF, Golang, and GraphQL.
 * **Manager of Media Technology, Digital** at [The Metropolitan Museum of Art](https://www.metmuseum.org/)  
   2014 — 2016  
-  Led development of the Met’s mobile ecosystem—including the Met App, Audio Guide, in-gallery kiosks, and supporting back-end systems—while introducing open-source tools and modern engineering practices. Guided a strategic pivot to build a shared service layer unifying data across the Museum’s platforms.
+  Oversaw development of the Met’s mobile ecosystem—including the Met App, Audio Guide, in-gallery kiosks, and supporting back-end systems—while introducing open-source tools and modern engineering practices. Guided a strategic pivot to build a shared service layer unifying data across the Museum’s platforms.
 * **Media Technology Developer** at [Museum of Modern Art](https://www.moma.org/)  
   2007 — 2014
 * **Technologist** at [WNYC](https://www.wnyc.org/)  
