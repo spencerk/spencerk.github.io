@@ -17,4 +17,4 @@ In earlier roles at the Met, I designed and built the ETL pipelines and APIs beh
 
 Before joining the Met, I worked in Digital at the Museum of Modern Art (MoMA), where I contributed to the development of [moma.org](https://www.moma.org) the native MoMA Audio+ apps, and various experimental gallery experiences.
 
-My background is in field recording and sound design, and I attended the [Interactive Telecommunications Program](https://itp.nyu.edu/itp/) (ITP) at NYU’s Tisch School of the Arts, where I combined my background in audio and web development to build projects that focus on the use of sound and space.
+My background combines field recording and sound design with a long-standing practice in web development. I hold a master’s from NYU’s Interactive Telecommunications Program (ITP), where I explored how sound, space, and technology intersect to create compelling, human-centered experiences.
