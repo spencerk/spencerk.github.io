@@ -11,7 +11,7 @@ Hello there!
 
 I’m an engineering leader with over 20 years of experience guiding and supporting digital transformation and innovation in museums and cultural institutions. 
 
-At The Metropolitan Museum of Art I serve as Senior Manager of Application Development, where I lead a team responsible for modernizing [metmuseum.org](https://www.metmuseum.org) through transition fromv legacy systems to a modern cloud-based architecture. 
+At The Metropolitan Museum of Art I serve as Senior Manager of Application Development, where I lead a team responsible for modernizing [metmuseum.org](https://www.metmuseum.org) through transition from legacy systems to a modern cloud-based architecture. 
 
 In earlier roles at the Met, I helped design and build the ETL pipelines and APIs behind the museum’s collection pages and [Open Access](https://www.metmuseum.org/about-the-met/policies-and-documents/open-access), and managed the mobile ecosystem—including The Met App, Audio Guide, and in-gallery interactives.
 
