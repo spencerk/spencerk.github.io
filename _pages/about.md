@@ -9,7 +9,7 @@ redirect_from:
 <br/>
 Hello there! 
 
-I’m an engineering leader with over 20 years of experience guiding and supporting digital transformation and innovation in museums and cultural institutions. 
+I’m an software developer with over 20 years of experience supporting digital transformation and innovation in museums and cultural institutions. 
 
 At The Metropolitan Museum of Art I serve as Senior Manager of Application Development, where I lead a team responsible for modernizing [metmuseum.org](https://www.metmuseum.org) through transition from legacy systems to a modern cloud-based architecture. 
 
