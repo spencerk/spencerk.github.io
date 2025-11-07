@@ -1,31 +1,33 @@
 # The following is the order of the links in the header of the website.
 #
-# Changing the order here will adjust the order and you can also add additional
-# links. Removing a link prevents it from showing in the header, but does not
-# prevent it from being included in the site.
-#
-# NOTE that only one of the CV options should be selected, the first is for the
-#      Markdown formatted page while the second is generated using JSON.
+# This updated navigation features a unified "Voice" section that combines
+# publications, talks, and writing. Individual sections are commented out
+# but can be re-enabled if you want both the unified page AND direct links.
 
 main:
 
   - title: "CV"
     url: /cv/
 
+  - title: "Voice"
+    url: /voice/
+  
   - title: "Portfolio"
     url: /portfolio/
-        
-  - title: "Talks"
-    url: /talks/    
-
-  - title: "Publications"
-    url: /publications/
-
+    
   - title: "Teaching"
-    url: /teaching/    
+    url: /teaching/
     
-  - title: "Press"
-    url: /year-archive/
+  # Individual sections - uncomment if you want direct links in addition to Voice page
+  # - title: "Publications"
+  #   url: /publications/
+  #     
+  # - title: "Talks"
+  #   url: /talks/    
+  #
+  # - title: "Writing"
+  #   url: /year-archive/
     
+  # Alternative CV format (JSON-based)
   # - title: "CV"
   #   url: /cv-json/

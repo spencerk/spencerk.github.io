@@ -1,0 +1,90 @@
+---
+layout: archive
+title: "Voice"
+permalink: /voice/
+author_profile: true
+---
+
+{% include base_path %}
+
+<p>I share ideas through speaking, writing, and teaching. My work explores how technology can advance institutional transparency, increase accessibility, and create environments where both people and systems thrive.</p>
+
+<!-- Featured Highlights Section -->
+<h2 id="featured" class="archive__subtitle">Featured</h2>
+<hr />
+
+<div style="margin-bottom: 2em;">
+  <h3 style="margin-bottom: 0.5em;">
+    <a href="/publication/2020-08-01-increment-connecting-to-art">Connecting to art: How The Metropolitan Museum of Art used a public API to share 5,000 years of human creativity</a>
+  </h3>
+  <p style="margin-bottom: 0.5em;"><em>Increment</em>, Issue 14, August 2020</p>
+  <p>Co-authored with Jennie Choi. An in-depth look at how The Met opened up access to its collection through a comprehensive public API.</p>
+</div>
+
+<div style="margin-bottom: 2em;">
+  <h3 style="margin-bottom: 0.5em;">
+    <a href="/talks/2023-06-18-talk">Delving into Open Access Artwork Metadata and Imagery at The Met</a>
+  </h3>
+  <p style="margin-bottom: 0.5em;">Fine-Grained Visual Categorization Workshop 10, CVPR 2023</p>
+  <p>Invited talk exploring how open collection data enables new research and engagement opportunities.</p>
+</div>
+
+<!-- Add more featured items here as needed -->
+<!-- Simply copy the <div> block above and update the content -->
+
+<!-- Full Publications Section -->
+<h2 id="publications" class="archive__subtitle" style="margin-top: 3em;">Publications</h2>
+<hr />
+
+{% if site.author.googlescholar %}
+  <p style="margin-bottom: 1em;"><small>See also: <a href="{{site.author.googlescholar}}">Google Scholar profile</a></small></p>
+{% endif %}
+
+{% if site.publication_category %}
+  {% for category in site.publication_category %}
+    {% assign category_has_posts = false %}
+    {% for post in site.publications reversed %}
+      {% if post.category == category[0] %}
+        {% assign category_has_posts = true %}
+        {% break %}
+      {% endif %}
+    {% endfor %}
+    
+    {% if category_has_posts %}
+      <h3>{{ category[1].title }}</h3>
+      {% for post in site.publications reversed %}
+        {% if post.category == category[0] %}
+          {% include archive-single.html %}
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+  {% endfor %}
+{% else %}
+  {% for post in site.publications reversed %}
+    {% include archive-single.html %}
+  {% endfor %}
+{% endif %}
+
+<!-- Full Talks Section -->
+<h2 id="talks" class="archive__subtitle" style="margin-top: 2em;">Talks & Presentations</h2>
+<hr />
+
+{% if site.talkmap_link == true %}
+  <p style="margin-bottom: 1em;"><small><a href="/talkmap.html">See a map of all the places I've given a talk</a></small></p>
+{% endif %}
+
+{% for post in site.talks reversed %}
+  {% include archive-single-talk.html %}
+{% endfor %}
+
+<!-- Full Teaching Section -->
+<h2 id="teaching" class="archive__subtitle" style="margin-top: 2em;">Teaching</h2>
+<hr />
+
+{% for post in site.teaching reversed %}
+  {% include archive-single.html %}
+{% endfor %}
+
+{% if site.teaching.size == 0 %}
+  <p><em>Teaching content coming soon.</em></p>
+{% endif %}
