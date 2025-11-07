@@ -14,10 +14,7 @@ main:
   
   - title: "Portfolio"
     url: /portfolio/
-    
-  - title: "Teaching"
-    url: /teaching/
-    
+
   # Individual sections - uncomment if you want direct links in addition to Voice page
   # - title: "Publications"
   #   url: /publications/
