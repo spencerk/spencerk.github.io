@@ -9,11 +9,11 @@ main:
   - title: "CV"
     url: /cv/
 
+  - title: "Work"
+    url: /work/
+
   - title: "Voice"
     url: /voice/
-  
-  - title: "Portfolio"
-    url: /portfolio/
 
   # Individual sections - uncomment if you want direct links in addition to Voice page
   # - title: "Publications"
