@@ -6,16 +6,36 @@
 
 <div itemscope itemtype="http://schema.org/Person">
 
+  {% comment %}
+    Avatar and name both link home. This is the site's only route back to `/`
+    now that the site title has been removed from the masthead — see
+    _includes/masthead.html — and it puts the home affordance on the identity
+    block, where the convention actually lives.
+
+    Two anchors rather than one wrapping both, deliberately. `.author__avatar`
+    and `.author__content` are `display: table-cell` siblings below $large
+    (_sass/layout/_sidebar.scss) and rely on anonymous table box generation to
+    sit side by side on narrow screens. A single anchor around the pair would
+    have to become the box that generates that table, and an inline <a>
+    containing table-cells splits in browser-dependent ways. Keeping each
+    anchor inside its existing div leaves the box tree untouched.
+
+    The avatar link is aria-hidden/tabindex="-1" so screen readers and the tab
+    order see one home link, not two adjacent ones pointing at the same place
+    — the same accessible result a single wrapping anchor would give.
+  {% endcomment %}
   <div class="author__avatar">
+    <a href="{{ base_path }}/" class="author__home-link" aria-hidden="true" tabindex="-1">
     {% if author.avatar contains "://" %}
     	<img src="{{ author.avatar }}" alt="{{ author.name }}">
     {% else %}
     	<img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" class="author__avatar" alt="{{ author.name }}">
     {% endif %}
+    </a>
   </div>
 
   <div class="author__content">
-    <h3 class="author__name">{{ author.name }}</h3>
+    <h3 class="author__name"><a href="{{ base_path }}/" class="author__home-link"{% if page.url == '/' %} aria-current="page"{% endif %}>{{ author.name }}</a></h3>
     {% if author.pronouns %}<p class="author__pronouns">{{ author.pronouns }}</p>{% endif %}
     {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
   </div>

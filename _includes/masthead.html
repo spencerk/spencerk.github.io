@@ -6,7 +6,16 @@
       <nav id="site-nav" class="greedy-nav">
         <button><div class="navicon"></div></button>
         <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg persist"><a href="{{ base_path }}/">{{ site.title }}</a></li>
+          {% comment %}
+            The site title used to sit here as the first item, marked `persist`
+            so greedy-nav never collapsed it. Removed deliberately: the name
+            already appears in the sidebar author profile and, on the homepage,
+            in the page title, so a third copy in the nav was redundant.
+
+            Removing it also frees the horizontal space the indented nav gives
+            up (see _sass/layout/_custom.scss), which keeps the links from
+            collapsing into the hamburger too early.
+          {% endcomment %}
           {% for link in site.data.navigation.main %}
             {% if link.url contains 'http' %}
               {% assign domain = '' %}

@@ -11,7 +11,14 @@ layout: compress
     {% include head/custom.html %}
   </head>
 
-  <body>
+  {% comment %}
+    `layout-home` is a styling hook, not a layout switch. The homepage renders
+    through the same single.html as everything else; this just lets CSS target
+    it — currently to hide the duplicated "Spencer Kiser" h1 while keeping the
+    front-matter `title` intact for <title> and SEO meta.
+    See "Homepage title" in assets/css/custom.css.
+  {% endcomment %}
+  <body{% if page.url == '/' %} class="layout-home"{% endif %}>
 
     {% include browser-upgrade.html %}
     {% include masthead.html %}

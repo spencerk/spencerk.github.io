@@ -93,35 +93,49 @@ body {
    fills its parent, so every item gets pushed into the hamburger.
    Item spacing comes from the theme's `.greedy-nav a { margin: 0 1rem }`. */
 
-/* Site title styling */
-.site-title {
-  font-size: 1.1em;
-  font-weight: 600;
-  margin-right: 2em;
-}
+/* The site title has been removed from the masthead — see the comment in
+   _includes/masthead.html. The `.site-title` rule that lived here styled a
+   class the markup never actually used (the title item was
+   `.masthead__menu-item--lg`), so it was dead twice over. */
 
-/* ===== Content Area Alignment ===== */
+/* ===== Content Area Alignment =====
 
-.page {
-  width: calc(100% - 300px);
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2em 1em;
-}
+   Nothing here on purpose. `.page` is laid out entirely by the theme's Susy
+   grid in _sass/layout/_page.scss — span(10 of 12 last), prefix(0.5 of 12),
+   suffix(2 of 12) above $large.
 
-@media (min-width: 64em) {
-  .page {
-    float: right;
-    width: calc(100% - 300px);
-    padding-right: 300px;
-  }
-}
+   This block used to override that with pixel widths:
 
-@media (min-width: 80em) {
-  .page {
-    width: calc(100% - 350px);
-    padding-right: 350px;
-  }
+     .page                  { width: calc(100% - 300px); margin: 0 auto; padding: 2em 1em }
+     @media (min-width:64em){ float: right; width: calc(100% - 300px); padding-right: 300px }
+     @media (min-width:80em){ width: calc(100% - 350px); padding-right: 350px }
+
+   Three problems, all removed with it:
+
+   1. Misalignment. custom.css loads after main.css and `.page` is the same
+      (0,1,0) specificity, so these won and the content column's left edge
+      became a pixel offset (300/350px) while the masthead nav stayed on the
+      percentage grid (_sass/layout/_custom.scss). Two different systems, so
+      they only ever coincided by accident.
+   2. Mismatched breakpoints. 64em/80em (1024/1280px) against the theme's
+      $large/$x-large (925/1280px). Between 925px and 1024px the grid had
+      already floated .page right while `width` was still being forced to
+      100%, so the content overlapped the span(2 of 12) sidebar.
+   3. Dead space. `padding-right: 300px` stacked on top of the grid's own
+      suffix(2 of 12), leaving a wide empty gutter and a needlessly narrow
+      measure.
+
+   Let the grid do it. The nav then shares .page's left edge by construction
+   at every breakpoint, because both use the same span/prefix. */
+
+/* ===== Homepage title =====
+
+   about.md keeps `title: "Spencer Kiser"` so <title> and the SEO meta stay
+   correct, but the visible h1 duplicated the sidebar author name directly
+   above it. `layout-home` is set on <body> in _layouts/default.html. */
+
+.layout-home .page__title {
+  display: none;
 }
 
 /* ===== Clean Typography ===== */
@@ -241,6 +255,62 @@ a:hover {
   font-weight: 600;
   font-size: 1.2em;
   color: var(--text-normal);
+}
+
+/* ===== Sidebar identity → home =====
+
+   The avatar and name link to `/` (see _includes/author-profile.html). They
+   have to be opted out of the generic `a` rules above, which would otherwise
+   paint the name accent-blue and make the identity block look like body copy
+   with a stray link in it. Specificity is fine: `.author__home-link:hover` is
+   (0,2,0) against `a:hover` at (0,1,1).
+
+   The affordance is deliberately quiet — the name underlines and the avatar
+   border picks up the accent on hover. Enough to read as clickable, not
+   enough to turn the sidebar into a call to action. */
+
+.author__home-link,
+.author__home-link:hover,
+.author__home-link:focus {
+  color: inherit;
+  text-decoration: none;
+}
+
+.author__name .author__home-link:hover,
+.author__name .author__home-link:focus-visible {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
+}
+
+/* The avatar anchor must not generate a box.
+
+   `.author__avatar` is `display: table-cell` below $large, and because the
+   theme puts the same class on the <img> as on its wrapping <div>, the image
+   is a table-cell too (_sass/layout/_sidebar.scss). Wrapping the image in a
+   plain inline <a> therefore produced table-cell > inline > table-cell, which
+   forces an anonymous table box inside a split inline box — Safari collapsed
+   it and the headshot vanished at narrow widths.
+
+   `display: contents` makes the anchor generate no box at all, so the box
+   tree is identical to what it was before the link existed. Clicks still work
+   (hit-testing follows the image, still a descendant) and :hover still fires.
+
+   The usual objection to `display: contents` on a link — older browsers
+   dropping it from the accessibility tree — doesn't apply here: this anchor
+   is already aria-hidden/tabindex="-1", a decorative duplicate of the name
+   link in .author__content. */
+
+.author__avatar .author__home-link {
+  display: contents;
+}
+
+.author__avatar .author__home-link img {
+  transition: border-color 0.2s ease;
+}
+
+.author__avatar .author__home-link:hover img {
+  border-color: var(--accent);
 }
 
 .author__bio {
@@ -376,11 +446,9 @@ blockquote {
 /* ===== Mobile Responsiveness ===== */
 
 @media (max-width: 63.99em) {
-  .page {
-    width: 100%;
-    padding: 1em;
-  }
-  
+  /* No `.page` rule here either — see "Content Area Alignment" above. Below
+     $large the theme leaves .page unspanned and full width already. */
+
   .masthead__inner-wrap {
     padding: 0.75em 1em;
   }
