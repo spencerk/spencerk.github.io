@@ -1,4 +1,5 @@
 ---
+sitemap: false  # AcademicPages template demo page — kept for reference, excluded from sitemaps
 layout: archive
 title: "CV"
 permalink: /cv-json/

@@ -1,4 +1,5 @@
 ---
+sitemap: false  # AcademicPages template demo page — kept for reference, excluded from sitemaps
 permalink: /markdown/
 title: "Markdown"
 author_profile: true

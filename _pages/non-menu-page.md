@@ -1,4 +1,5 @@
 ---
+sitemap: false  # AcademicPages template demo page — kept for reference, excluded from sitemaps
 permalink: /non-menu-page/
 title: "Page not in menu"
 author_profile: true

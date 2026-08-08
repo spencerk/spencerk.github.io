@@ -1,4 +1,5 @@
 ---
+sitemap: false  # AcademicPages template demo page — kept for reference, excluded from sitemaps
 title: "Archive Layout with Content"
 layout: archive
 permalink: /archive-layout-with-content/

@@ -1,4 +1,5 @@
 ---
+sitemap: false  # Unedited AcademicPages boilerplate — de-indexed until reviewed. Still reachable at /terms/.
 permalink: /terms/
 title: "Terms and Privacy Policy"
 modified: 2016-06-06
