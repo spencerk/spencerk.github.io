@@ -1,0 +1,366 @@
+/* Custom Obsidian Minimal-inspired styling for Academic Pages
+ * Place this file in: /assets/css/custom.css
+ * Then add to _config.yml after_footer_scripts or link in head
+ */
+
+/* ===== Typography & Base Styles ===== */
+/* These alias the theme's own variables rather than hardcoding hex values.
+   The theme redefines every --global-* under html[data-theme="dark"]
+   (_sass/theme/_dark.scss), so aliasing means everything below follows the
+   masthead theme toggle automatically. Hardcoding colours here is what made
+   dark mode unreadable: <body> went dark while every rule in this file kept
+   painting light-mode text on top of it.
+
+   Light and dark values live in _sass/theme/_new.scss and _sass/theme/_dark.scss.
+   Change them there, not here. */
+:root {
+  --background: var(--global-bg-color);
+  --background-secondary: var(--global-thead-color);
+  --text-normal: var(--global-text-color);
+  --text-muted: var(--global-text-color-light);
+  --text-faint: var(--global-fig-caption-color);
+  --accent: var(--global-link-color);
+  --accent-hover: var(--global-link-color-hover);
+  --border-color: var(--global-border-color);
+  --radius: 6px;
+  --font-text: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-interface: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+body {
+  font-family: var(--font-text);
+  color: var(--text-normal);
+  line-height: 1.65;
+  font-size: 16px;
+}
+
+/* ===== Navigation Alignment & Styling ===== */
+
+/* Make masthead container match content width */
+.masthead {
+  border-bottom: 1px solid var(--border-color);
+  background: var(--background);
+}
+
+/* NOTE: do not set max-width here. The theme's `@include container` caps
+   this at $large (925px) and only widens to $x-large (1280px) at the 1280px
+   breakpoint — matching #main exactly. Forcing 1280px at all widths made the
+   masthead wider than #main between 925px and 1280px, so the nav no longer
+   shared a left edge with the content. Horizontal alignment now comes from
+   the theme; the grid slot is set in _sass/layout/_custom.scss. */
+.masthead__inner-wrap {
+  padding: 1em 1em;
+  font-family: var(--font-interface);
+}
+
+/* Align navigation items with content below */
+.greedy-nav {
+  position: relative;
+}
+
+/* Colour is left to the theme (--global-masthead-link-color /
+   --global-masthead-link-color-hover) so the nav stays neutral rather than
+   picking up the blue link accent, and so it follows the dark theme. */
+.greedy-nav a {
+  font-weight: 500;
+  text-decoration: none;
+}
+
+/* The theme already draws its own hover underline: .visible-links a:before
+   is a 4px bar that scales in on hover (layout/_navigation.scss). The global
+   `a:hover { text-decoration: underline }` below stacks a second line on top
+   of it, so switch it back off here. */
+.greedy-nav a:hover {
+  text-decoration: none;
+}
+
+/* NOTE: do not set display/flex on .visible-links — the greedy-nav JS
+   measures its width to decide how many items fit. A flex container
+   fills its parent, so every item gets pushed into the hamburger.
+   Item spacing comes from the theme's `.greedy-nav a { margin: 0 1rem }`. */
+
+/* Site title styling */
+.site-title {
+  font-size: 1.1em;
+  font-weight: 600;
+  margin-right: 2em;
+}
+
+/* ===== Content Area Alignment ===== */
+
+.page {
+  width: calc(100% - 300px);
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2em 1em;
+}
+
+@media (min-width: 64em) {
+  .page {
+    float: right;
+    width: calc(100% - 300px);
+    padding-right: 300px;
+  }
+}
+
+@media (min-width: 80em) {
+  .page {
+    width: calc(100% - 350px);
+    padding-right: 350px;
+  }
+}
+
+/* ===== Clean Typography ===== */
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-interface);
+  font-weight: 600;
+  line-height: 1.3;
+  color: var(--text-normal);
+  margin-bottom: 0.5em;
+  margin-top: 1.25em;
+}
+
+h1 { 
+  font-size: 2em;
+  margin-top: 0;
+}
+
+h2 { 
+  font-size: 1.5em;
+  padding-bottom: 0.3em;
+  border-bottom: 1px solid var(--border-color);
+}
+
+h3 { font-size: 1.25em; }
+
+/* ===== Links ===== */
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: var(--accent-hover);
+  text-decoration: underline;
+}
+
+/* ===== Archive/List Items ===== */
+
+.archive__item-title {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  font-family: var(--font-interface);
+  font-size: 1.1em;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.archive__item {
+  padding: 1em 0;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.archive__item:last-child {
+  border-bottom: none;
+}
+
+.archive__item-excerpt {
+  color: var(--text-muted);
+  font-size: 0.95em;
+  line-height: 1.6;
+  margin-top: 0.5em;
+}
+
+/* The theme sets .archive__subtitle to --global-text-color-light, which is a
+   pale grey. That beats the `h1, h2, ...` rule above on specificity (class vs
+   element), so the colour has to be restated here or Voice's section headers
+   render washed out. */
+.archive__subtitle {
+  font-size: 1.5em;
+  font-weight: 600;
+  color: var(--text-normal);
+  margin-top: 1.5em;
+  margin-bottom: 0.6em;
+  padding-bottom: 0.3em;
+  border-bottom: 1px solid var(--border-color);
+}
+
+/* ===== Sidebar ===== */
+
+.sidebar {
+  opacity: 1;
+}
+
+.author__avatar img {
+  max-width: 150px;
+  border-radius: 50%;
+  border: 1px solid var(--border-color);
+}
+
+.author__name {
+  font-family: var(--font-interface);
+  font-weight: 600;
+  font-size: 1.2em;
+  color: var(--text-normal);
+}
+
+.author__bio {
+  color: var(--text-muted);
+  font-size: 0.9em;
+  line-height: 1.5;
+}
+
+.author__urls-wrapper {
+  font-size: 0.9em;
+}
+
+.author__urls-wrapper li {
+  margin-bottom: 0.5em;
+}
+
+/* ===== Voice Page Featured Section ===== */
+
+#featured + hr {
+  border: none;
+  border-top: 2px solid var(--border-color);
+  margin: 1em 0 2em 0;
+}
+
+/* Style for featured items */
+.archive__item h3 {
+  margin-top: 0;
+  margin-bottom: 0.5em;
+}
+
+/* ===== Buttons ===== */
+
+.btn {
+  border-radius: var(--radius);
+  font-family: var(--font-interface);
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.btn--primary {
+  background-color: var(--accent);
+}
+
+.btn--primary:hover {
+  background-color: var(--accent-hover);
+}
+
+/* ===== Code Blocks ===== */
+
+/* Use the theme's dedicated code variables, not the general text colour.
+   The theme deliberately keeps code blocks light in both themes, so pairing
+   its background with --text-normal would give white-on-white in dark mode. */
+code {
+  background-color: var(--global-code-background-color);
+  padding: 0.2em 0.4em;
+  border-radius: 3px;
+  font-size: 0.9em;
+  color: var(--global-code-text-color);
+}
+
+pre {
+  background-color: var(--global-code-background-color);
+  color: var(--global-code-text-color);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius);
+  padding: 1em;
+}
+
+/* ===== Tables ===== */
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1.5em 0;
+}
+
+/* No background here — the theme's `thead` rule already sets a dark-aware one
+   (layout/_tables.scss). Overriding it on `th` alone left light-mode grey
+   behind the header row in dark mode. */
+th {
+  font-weight: 600;
+  text-align: left;
+  padding: 0.75em;
+  border-bottom: 2px solid var(--border-color);
+}
+
+td {
+  padding: 0.75em;
+  border-bottom: 1px solid var(--border-color);
+}
+
+/* ===== Page Meta Info ===== */
+
+.page__meta {
+  color: var(--text-muted);
+  font-size: 0.85em;
+  margin-top: 0.5em;
+}
+
+/* ===== Improved Spacing ===== */
+
+p {
+  margin-bottom: 1.25em;
+}
+
+ul, ol {
+  margin-bottom: 1.25em;
+  padding-left: 1.5em;
+}
+
+li {
+  margin-bottom: 0.5em;
+}
+
+/* ===== Blockquotes ===== */
+
+blockquote {
+  border-left: 3px solid var(--accent);
+  padding-left: 1.5em;
+  margin: 1.5em 0;
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+/* ===== Clean up excessive borders ===== */
+
+.page__content hr {
+  border: none;
+  border-top: 1px solid var(--border-color);
+  margin: 2em 0;
+}
+
+/* ===== Mobile Responsiveness ===== */
+
+@media (max-width: 63.99em) {
+  .page {
+    width: 100%;
+    padding: 1em;
+  }
+  
+  .masthead__inner-wrap {
+    padding: 0.75em 1em;
+  }
+  
+  .greedy-nav .visible-links {
+    font-size: 0.9em;
+  }
+}
+
+/* ===== Dark Mode =====
+   Handled by the theme, not here. See _sass/theme/_dark.scss, the
+   #theme-toggle button in _includes/masthead.html, and setTheme() in
+   assets/js/_main.js. It keys off html[data-theme="dark"] and drives
+   everything through --global-* variables.
+
+   Do not add a prefers-color-scheme block: the --background /
+   --text-normal / --accent variables defined at the top of this file
+   are local to it, and no theme component reads them. Overriding them
+   repaints <body> while every theme surface stays light. */
