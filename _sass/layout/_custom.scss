@@ -1,0 +1,35 @@
+/* ==========================================================================
+   CUSTOM OVERRIDES
+
+   Lives in the Sass pipeline (rather than assets/css/custom.css) because it
+   needs the theme's own Susy grid mixins. Anything expressed in grid columns
+   belongs here so it tracks $susy automatically; flat cosmetic rules can stay
+   in custom.css.
+
+   Imported last from assets/css/main.scss.
+   ========================================================================== */
+
+/*
+   Masthead nav aligned to the content column
+   ==========================================================================
+
+   #main (layout/_page.scss) and .masthead__inner-wrap (layout/_masthead.scss)
+   are both `@include container`, so their outer edges already coincide at
+   every breakpoint. The content inside #main is then inset by the sidebar
+   span plus the archive prefix.
+
+   Giving the nav the identical grid slot to .archive (layout/_archive.scss)
+   lines the two up by construction, and keeps them in sync if $susy or the
+   sidebar span ever changes.
+
+   Below $large the nav stays full width, matching .archive's span(12 of 12).
+*/
+
+.masthead__inner-wrap {
+  #site-nav.greedy-nav {
+    @include breakpoint($large) {
+      @include span(10 of 12 last);
+      @include prefix(0.5 of 12);
+    }
+  }
+}
