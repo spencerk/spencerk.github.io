@@ -9,8 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
-Work experience
-===
+## Work experience
+
 * **Senior Manager, Application Development** at [The Metropolitan Museum of Art](https://www.metmuseum.org/)  
   2021 — present  
   Led team migrating metmuseum.org from legacy on-premises CMS to modern cloud architecture (React/Next/Sanity/Elasticsearch). Emphasized rigorous domain modeling, code review, automated testing, and DevOps practices throughout the modernization process.
@@ -37,26 +37,26 @@ Work experience
 * **Music Buyer** at [Mondo Kim's](https://en.wikipedia.org/wiki/Kim%27s_Video_and_Music)  
   1996
   
-Publications
-======
+## Publications
+
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Talks
-======
+## Talks
+
   <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html  %}
   {% endfor %}</ul>
   
-Teaching
-======
+## Teaching
+
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Education
-======
+## Education
+
 * **Master of Professional Studies (M.P.S.), Interactive Telecommunications Program**  
   New York University  
   2004 — 2006
@@ -70,11 +70,9 @@ Education
   Universität Heidelberg  
   1993 - 1994
 
-Volunteering
-======
+## Volunteering
 
-Press
-======
+## Press
 <!-- Add 3-5 press mentions below. Use this format for each item:
 
 * **"[Article Title](URL)"**  
