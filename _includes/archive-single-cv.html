@@ -36,7 +36,17 @@
     {% if post.read_time %}
       <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}
-    {% if post.venue%}<p class="archive__item-excerpt" itemprop="description">{{ post.citation }}</p> {% endif %}
+    {% comment %}
+      This include serves both publications and teaching. Publications carry a
+      `citation`; teaching entries carry `venue`/`type`/`location` and no
+      citation. Gating on `venue` while printing `citation` rendered an empty
+      paragraph under every teaching entry.
+    {% endcomment %}
+    {% if post.citation %}
+      <p class="archive__item-excerpt" itemprop="description">{{ post.citation }}</p>
+    {% elsif post.venue %}
+      <p class="archive__item-excerpt" itemprop="description">{% if post.type %}{{ post.type }}, {% endif %}{{ post.venue }}{% if post.location %}, {{ post.location }}{% endif %}</p>
+    {% endif %}
     </li>
  </article>
 </div>
