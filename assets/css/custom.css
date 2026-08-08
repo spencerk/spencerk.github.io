@@ -17,14 +17,28 @@
   --background: var(--global-bg-color);
   --background-secondary: var(--global-thead-color);
   --text-normal: var(--global-text-color);
-  --text-muted: var(--global-text-color-light);
-  --text-faint: var(--global-fig-caption-color);
+  --text-muted: var(--global-fig-caption-color);
+  --text-faint: var(--global-text-color-light);
   --accent: var(--global-link-color);
   --accent-hover: var(--global-link-color-hover);
   --border-color: var(--global-border-color);
   --radius: 6px;
   --font-text: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   --font-interface: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+/* --text-muted has to be picked per theme, because neither theme variable
+   reads well in both. In light mode --global-text-color-light is $light-gray
+   (~#bcc0c4), far too pale against white — that's what washed out the CV
+   citations, talk venues and dates. In dark mode the reverse is true:
+   --global-fig-caption-color is $dark-gray (~#494c50) against a #474747
+   background, which is nearly invisible.
+
+   So: fig-caption grey in light, text-color-light in dark. Still no hardcoded
+   values, and it still follows the toggle. */
+html[data-theme="dark"] {
+  --text-muted: var(--global-text-color-light);
+  --text-faint: var(--global-fig-caption-color);
 }
 
 body {
@@ -144,6 +158,28 @@ a {
 
 a:hover {
   color: var(--accent-hover);
+  text-decoration: underline;
+}
+
+/* Content links: blue, underline on hover only.
+
+   The bare `a` rule above can't win this on its own. The theme underlines
+   content links permanently via two class-scoped rules —
+   `.archive a` (layout/_archive.scss) covering CV, Work and Voice, and
+   `.page__content a` (layout/_page.scss) covering portfolio, talk and
+   publication pages. Both are (0,1,1) specificity and beat a bare element
+   selector, so the override has to be scoped the same way.
+
+   Deliberately limited to content containers: nav, sidebar and footer links
+   keep the theme's own treatment. `.btn` is excluded so call-to-action
+   buttons don't pick up an underline on hover. */
+.archive a:not(.btn),
+.page__content a:not(.btn) {
+  text-decoration: none;
+}
+
+.archive a:not(.btn):hover,
+.page__content a:not(.btn):hover {
   text-decoration: underline;
 }
 
