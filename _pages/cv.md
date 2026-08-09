@@ -21,15 +21,18 @@ redirect_from:
   2014 – 2016  
   Ran the team behind the Met's mobile work: the Met App, the Audio Guide, in-gallery kiosks, and the back-end systems they run on. When sharing data across systems became the bottleneck, we changed course and built Codex, a shared service layer for Museum data.
 * **Media Technology Developer** at [Museum of Modern Art](https://www.moma.org/)  
-  2007 – 2014
+  2007 – 2014  
+  Built MoMA's first mobile app, native and mobile web, along with the API behind it, and took it from prototype to production. I started as the only developer, then worked with a contractor, and later as part of a larger team pairing at Pivotal Labs. Replatformed moma.org from PHP and MSSQL to Ruby on Rails and Postgres, and moved it onto our own unix servers on commodity hardware. A large part of the job was in-gallery work built for particular exhibitions.
 * **Technologist** at [WNYC](https://www.wnyc.org/)  
   2006 – 2007
 * **Special Projects Technologist** at [AV&C](https://www.av-controls.com/)  
   2006 – 2007
 * **Business Analyst, Licensing** at [ASCAP](https://www.ascap.com/)  
-  2001 – 2005
+  2001 – 2005  
+  Supported account managers collecting license fees from radio broadcasts, and built the reporting application they used.
 * **Team Lead, International Distribution** at [ASCAP](https://www.ascap.com/)  
-  1996 – 2001
+  1996 – 2001  
+  Led the International Monitoring Unit, a team of translators who reconciled international revenue distributions against TV guides.
 * **Webmaster** at [Anthology Film Archives](https://www.anthologyfilmarchives.org/)  
   1998 – 2000
 * **Co-founder** at Fluid Ounce Records  
