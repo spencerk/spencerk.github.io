@@ -16,7 +16,7 @@ redirect_from:
   Led team migrating metmuseum.org from legacy on-premises CMS to modern cloud architecture (React/Next/Sanity/Elasticsearch). Emphasized rigorous domain modeling, code review, automated testing, and DevOps practices throughout the modernization process.
 * **Lead Developer, Collection** at [The Metropolitan Museum of Art](https://www.metmuseum.org/)  
   2016 — 2021  
-  Designed and built ETL pipelines and APIs supporting [The Met's Collection](https://www.metmuseum.org/art/collection) and [The Met's Open Access](https://www.metmuseum.org/about-the-met/policies-and-documents/open-access) Initiative. Significantly improved worldwide collection object page performance while championing adoption of modern technologies including IIIF, Golang, and GraphQL.
+  Designed and built ETL pipelines and APIs supporting [The Met's Collection](https://www.metmuseum.org/art/collection) and [The Met's Open Access](https://www.metmuseum.org/about-the-met/policies-and-documents/open-access) Initiative, which has generated over 1.2 billion views and 7 million downloads. Significantly improved worldwide collection object page performance while championing adoption of modern technologies including IIIF, Golang, and GraphQL.
 * **Manager of Media Technology, Digital** at [The Metropolitan Museum of Art](https://www.metmuseum.org/)  
   2014 — 2016  
   Oversaw development of the Met's mobile ecosystem—including the Met App, Audio Guide, in-gallery kiosks, and supporting back-end systems—while introducing open-source tools and modern engineering practices. Guided a strategic pivot to build a shared service layer unifying data across the Museum's platforms.
@@ -72,8 +72,12 @@ redirect_from:
 
 ## Volunteering
 
+* **Research Coach** at Forest Hills Junior FIRST LEGO League  
+  2015 — 2016  
+  Coached a team of eight seven- and eight-year-olds in mechanics, sensors and motors, and recycling and reuse. The team built a Materials Recovery Facility using the LEGO WeDo robotics kit.
+
 ## Press
-<!-- Add 3-5 press mentions below. Use this format for each item:
+<!-- Add press mentions below. Use this format for each item:
 
 * **"[Article Title](URL)"**  
   _Publication Name_, Date  
