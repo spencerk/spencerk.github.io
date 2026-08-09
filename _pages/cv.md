@@ -16,7 +16,7 @@ redirect_from:
   Led the team that moved metmuseum.org off an on-premises CMS and onto a cloud stack of React, Next, Sanity, and Elasticsearch. We made domain modeling, code review, automated testing, and DevOps part of how the team works day to day.
 * **Lead Developer, Collection** at [The Metropolitan Museum of Art](https://www.metmuseum.org/)  
   2016 – 2021  
-  Led the team that built the ETL pipelines and APIs behind [The Met's Collection](https://www.metmuseum.org/art/collection) and [The Met's Open Access](https://www.metmuseum.org/about-the-met/policies-and-documents/open-access) Initiative, which has generated over 1.2 billion views and 7 million downloads. We made collection object pages faster worldwide and moved the stack onto IIIF, Golang, and GraphQL.
+  Led the team that built the ETL pipelines and APIs behind [The Met's Collection](https://www.metmuseum.org/art/collection) and [The Met's Open Access](https://www.metmuseum.org/about-the-met/policies-and-documents/open-access) Initiative, which has served over 900 million API requests as of mid-2026. We made collection object pages faster worldwide and moved the stack onto IIIF, Golang, and GraphQL.
 * **Manager of Media Technology, Digital** at [The Metropolitan Museum of Art](https://www.metmuseum.org/)  
   2014 – 2016  
   Ran the team behind the Met's mobile work: the Met App, the Audio Guide, in-gallery kiosks, and the back-end systems they run on. When sharing data across systems became the bottleneck, we changed course and built Codex, a shared service layer for Museum data.
