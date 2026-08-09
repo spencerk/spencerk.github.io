@@ -13,13 +13,13 @@ redirect_from:
 
 * **Senior Manager, Application Development** at [The Metropolitan Museum of Art](https://www.metmuseum.org/)  
   2021 — present  
-  Led team migrating metmuseum.org from legacy on-premises CMS to modern cloud architecture (React/Next/Sanity/Elasticsearch). Emphasized rigorous domain modeling, code review, automated testing, and DevOps practices throughout the modernization process.
+  Led the team that moved metmuseum.org off an on-premises CMS and onto a cloud stack of React, Next, Sanity, and Elasticsearch. We made domain modeling, code review, automated testing, and DevOps part of how the team works day to day.
 * **Lead Developer, Collection** at [The Metropolitan Museum of Art](https://www.metmuseum.org/)  
   2016 — 2021  
-  Designed and built ETL pipelines and APIs supporting [The Met's Collection](https://www.metmuseum.org/art/collection) and [The Met's Open Access](https://www.metmuseum.org/about-the-met/policies-and-documents/open-access) Initiative, which has generated over 1.2 billion views and 7 million downloads. Significantly improved worldwide collection object page performance while championing adoption of modern technologies including IIIF, Golang, and GraphQL.
+  Led the team that built the ETL pipelines and APIs behind [The Met's Collection](https://www.metmuseum.org/art/collection) and [The Met's Open Access](https://www.metmuseum.org/about-the-met/policies-and-documents/open-access) Initiative, which has generated over 1.2 billion views and 7 million downloads. We made collection object pages faster worldwide and moved the stack onto IIIF, Golang, and GraphQL.
 * **Manager of Media Technology, Digital** at [The Metropolitan Museum of Art](https://www.metmuseum.org/)  
   2014 — 2016  
-  Oversaw development of the Met's mobile ecosystem—including the Met App, Audio Guide, in-gallery kiosks, and supporting back-end systems—while introducing open-source tools and modern engineering practices. Guided a strategic pivot to build a shared service layer unifying data across the Museum's platforms.
+  Ran the team behind the Met's mobile work: the Met App, the Audio Guide, in-gallery kiosks, and the back-end systems they run on. When sharing data across systems became the bottleneck, we changed course and built Codex, a shared service layer for Museum data.
 * **Media Technology Developer** at [Museum of Modern Art](https://www.moma.org/)  
   2007 — 2014
 * **Technologist** at [WNYC](https://www.wnyc.org/)  
@@ -66,7 +66,7 @@ redirect_from:
 * **Bachelor of Arts (B.A.), German Language and Literature**  
   Boston University  
   1992 — 1994
-* **Germanistik Austauschprogram**  
+* **Germanistik Austauschprogramm**  
   Universität Heidelberg  
   1993 - 1994
 
