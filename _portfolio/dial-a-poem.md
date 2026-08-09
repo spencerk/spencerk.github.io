@@ -10,9 +10,9 @@ categories:
   - telephony
   - MoMA
 institution: MoMA
-excerpt: Custom telephony application and web audio player to support artwork "Dial-A-Poem", by John Adorno, in the exhibition, Ecstatic Alphabets at the Museum of Modern Art.
+excerpt: Custom telephony application and web audio player to support artwork "Dial-A-Poem", by John Giorno, in the exhibition, Ecstatic Alphabets at the Museum of Modern Art.
 ---
 <img alt="a row of black, analog telephones in a white room.  person facing the row of phones, with receiver lifted to left ear."  src="/images/portfolio/dial-a-poem-500w.jpg">
 *Photo Credit: Dan Phiffer*
 
-Custom telephony application and web audio player to support artwork ["Dial-A-Poem"](https://www.moma.org/interactives/exhibitions/2012/ecstaticalphabets/dial-a-poem/), by John Adorno, in the exhibition, [Ecstatic Alphabets](https://www.moma.org/interactives/exhibitions/2012/ecstaticalphabets) at the [Museum of Modern Art](https://www.moma.org)
+Custom telephony application and web audio player to support artwork ["Dial-A-Poem"](https://www.moma.org/interactives/exhibitions/2012/ecstaticalphabets/dial-a-poem/), by [John Giorno](https://www.moma.org/collection/works/294325), in the exhibition, [Ecstatic Alphabets](https://www.moma.org/interactives/exhibitions/2012/ecstaticalphabets) at the [Museum of Modern Art](https://www.moma.org)
