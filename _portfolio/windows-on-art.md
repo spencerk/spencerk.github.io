@@ -9,12 +9,13 @@ categories:
   - MoMA
 institution: MoMA
 excerpt: >-
-  A door in the gallery that reveals a slideshow when you open it, and advances
-  it when you open it again. Built on a Raspberry Pi for Century of the Child.
+  Windows in the gallery, each with a door over it. Opening a door reveals the
+  slideshow behind it and advances it to the next image. Built on Raspberry Pis
+  for Century of the Child.
 ---
 
-A door in the gallery.  Open it and a slideshow is revealed behind it.  Open it again and the slideshow advances.
+A set of windows in the gallery, each one covered by a door.  Opening a door reveals the slideshow behind it and advances it to the next image.
 
-Built on a Raspberry Pi for [*Century of the Child: Growing by Design, 1900–2000*](https://www.moma.org/calendar/exhibitions/1239), at MoMA from July 29 to November 5, 2012.
+Built on Raspberry Pis for [*Century of the Child: Growing by Design, 1900–2000*](https://www.moma.org/calendar/exhibitions/1239), at MoMA from July 29 to November 5, 2012.
 
 The same exhibition the [MoMA Studio: Common Senses Sound Map](/portfolio/moma-studio-sound-map/) was built for.
