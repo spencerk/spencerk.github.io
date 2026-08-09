@@ -12,28 +12,28 @@ redirect_from:
 ## Work experience
 
 * **Senior Manager, Application Development** at [The Metropolitan Museum of Art](https://www.metmuseum.org/)  
-  2021 — present  
+  2021 – present  
   Led the team that moved metmuseum.org off an on-premises CMS and onto a cloud stack of React, Next, Sanity, and Elasticsearch. We made domain modeling, code review, automated testing, and DevOps part of how the team works day to day.
 * **Lead Developer, Collection** at [The Metropolitan Museum of Art](https://www.metmuseum.org/)  
-  2016 — 2021  
+  2016 – 2021  
   Led the team that built the ETL pipelines and APIs behind [The Met's Collection](https://www.metmuseum.org/art/collection) and [The Met's Open Access](https://www.metmuseum.org/about-the-met/policies-and-documents/open-access) Initiative, which has generated over 1.2 billion views and 7 million downloads. We made collection object pages faster worldwide and moved the stack onto IIIF, Golang, and GraphQL.
 * **Manager of Media Technology, Digital** at [The Metropolitan Museum of Art](https://www.metmuseum.org/)  
-  2014 — 2016  
+  2014 – 2016  
   Ran the team behind the Met's mobile work: the Met App, the Audio Guide, in-gallery kiosks, and the back-end systems they run on. When sharing data across systems became the bottleneck, we changed course and built Codex, a shared service layer for Museum data.
 * **Media Technology Developer** at [Museum of Modern Art](https://www.moma.org/)  
-  2007 — 2014
+  2007 – 2014
 * **Technologist** at [WNYC](https://www.wnyc.org/)  
-  2006 — 2007
+  2006 – 2007
 * **Special Projects Technologist** at [AV&C](https://www.av-controls.com/)  
-  2006 — 2007
+  2006 – 2007
 * **Business Analyst, Licensing** at [ASCAP](https://www.ascap.com/)  
-  2001 — 2005
+  2001 – 2005
 * **Team Lead, International Distribution** at [ASCAP](https://www.ascap.com/)  
-  1996 — 2001
+  1996 – 2001
 * **Webmaster** at [Anthology Film Archives](https://www.anthologyfilmarchives.org/)  
-  1998 — 2000
+  1998 – 2000
 * **Co-founder** at Fluid Ounce Records  
-  1996 — 1999
+  1996 – 1999
 * **Music Buyer** at [Mondo Kim's](https://en.wikipedia.org/wiki/Kim%27s_Video_and_Music)  
   1996
   
@@ -59,13 +59,13 @@ redirect_from:
 
 * **Master of Professional Studies (M.P.S.), Interactive Telecommunications Program**  
   New York University  
-  2004 — 2006
+  2004 – 2006
 * **Audio Engineering Certificate**  
   The New School  
   2000
 * **Bachelor of Arts (B.A.), German Language and Literature**  
   Boston University  
-  1992 — 1994
+  1992 – 1994
 * **Germanistik Austauschprogramm**  
   Universität Heidelberg  
   1993 - 1994
@@ -73,7 +73,7 @@ redirect_from:
 ## Volunteering
 
 * **Research Coach** at Forest Hills Junior FIRST LEGO League  
-  2015 — 2016  
+  2015 – 2016  
   Coached a team of eight seven- and eight-year-olds in mechanics, sensors and motors, and recycling and reuse. The team built a Materials Recovery Facility using the LEGO WeDo robotics kit.
 
 ## Press
