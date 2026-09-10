@@ -10,7 +10,7 @@ categories:
 institution: MoMA
 excerpt: >-
   A sound map of silence, made for the MoMA exhibition There Will Never Be
-  Silence: Scoring John Cage's 4'33". Visitors recorded the "silence" around
+  Silence: Scoring John Cage's 4'33". Participants recorded the "silence" around
   them, said where they were standing, and selected recordings were added to
   the map.
 ---
@@ -19,7 +19,7 @@ A sound map made in conjunction with [*There Will Never Be Silence: Scoring John
 
 Cage's *4'33"* is four minutes and thirty-three seconds during which no note is played.  The point was never silence - it was to move attention off the performer and onto the ambient sound already in the room.  As Cage put it later, "What they thought was silence, because they didn't know how to listen, was full of accidental sounds."
 
-So the map asked visitors to record the "silence" around them on their phones, submit it to MoMA's SoundCloud dropbox, and note where they were standing.  Selected recordings went onto the map.
+So the map asked people to record the "silence" around them on their phones, submit it to MoMA's SoundCloud dropbox, and note where they were standing.  Selected recordings went onto the map.
 
 It ran on the same system built for the [MoMA Studio: Common Senses Sound Map](/portfolio/moma-studio-sound-map/) the year before - Ruby on Rails, Leaflet, and the SoundCloud API - pointed at a different question.
 

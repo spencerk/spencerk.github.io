@@ -13,13 +13,13 @@ redirect_from:
 
 * **Senior Manager, Application Development** at [The Metropolitan Museum of Art](https://www.metmuseum.org/)  
   2021 – present  
-  Led the team that moved metmuseum.org off an on-premises CMS and onto a cloud stack of React, Next, Sanity, and Elasticsearch. We made domain modeling, code review, automated testing, and DevOps part of how the team works day to day.
+  Led the team that moved metmuseum.org off an internally hosted CMS and onto a cloud stack of Next.js, Sanity, Vercel, and Elasticsearch. We made domain modeling, code review, automated testing, and DevOps part of our day to day.
 * **Lead Developer, Collection** at [The Metropolitan Museum of Art](https://www.metmuseum.org/)  
   2016 – 2021  
-  Led the team that built the ETL pipelines and APIs behind [The Met's Collection](https://www.metmuseum.org/art/collection) and [The Met's Open Access](https://www.metmuseum.org/about-the-met/policies-and-documents/open-access) Initiative, which has served over 900 million API requests as of mid-2026. We made collection object pages faster worldwide and moved the stack onto IIIF, Golang, and GraphQL.
+  Led the team that built the ETL pipelines and APIs behind [The Met's Collection](https://www.metmuseum.org/art/collection) and [The Met's Open Access](https://www.metmuseum.org/about-the-met/policies-and-documents/open-access) Initiative, which has served over 900 million API requests as of mid-2026. We made collection object pages faster worldwide and moved the stack onto IIIF and Golang.
 * **Manager of Media Technology, Digital** at [The Metropolitan Museum of Art](https://www.metmuseum.org/)  
   2014 – 2016  
-  Ran the team behind the Met's mobile work: the Met App, the Audio Guide, in-gallery kiosks, and the back-end systems they run on. When sharing data across systems became the bottleneck, we changed course and built Codex, a shared service layer for Museum data.
+  Ran the team behind the Met's mobile work: the Met App, the Audio Guide, and in-gallery kiosks. The content in those apps was maintained by hand, as documents in a licensed system. We replaced that with an automated pipeline in Python and Postgres and saved the Museum tens of thousands per year. The features we wanted next needed more data, scattered across databases, microsites, and file shares the web couldn't reach. Nothing was connected. So we sunset all of it, the apps, the kiosks, the audio guide, and built the layer underneath instead.
 * **Media Technology Developer** at [Museum of Modern Art](https://www.moma.org/)  
   2007 – 2014  
   Built MoMA's first mobile app, native and mobile web, along with the API behind it, and took it from prototype to production. I started as the only developer, then worked with a contractor, and later as part of a larger team pairing at Pivotal Labs. Replatformed moma.org from PHP and MSSQL to Ruby on Rails and Postgres, and moved it onto our own unix servers on commodity hardware. A large part of the job was in-gallery work built for particular exhibitions.
