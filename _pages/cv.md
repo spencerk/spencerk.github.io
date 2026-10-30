@@ -70,7 +70,7 @@ redirect_from:
   Boston University  
   1992 – 1994
 * **Germanistik Austauschprogramm**  
-  Universität Heidelberg  
+  Ruprecht-Karls-Universität Heidelberg  
   1993 - 1994
 
 ## Volunteering
