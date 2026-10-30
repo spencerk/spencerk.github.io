@@ -9,12 +9,10 @@ redirect_from:
 <br/>
 Hello there! 
 
-I'm a technology leader with 20+ years helping cultural institutions transform their digital presence and organizational practices. 
+I'm a technology leader with over twenty years experience helping cultural institutions transform their digital presence and organizational practices. 
 
-At [The Metropolitan Museum of Art](https://www.metmuseum.org), my work has spanned mobile development, API architecture, contributing to the institution's [Open Access](https://www.metmuseum.org/about-the-met/policies-and-documents/open-access) initiative, and currently leading web modernization efforts - building sustainable systems and collaborative teams throughout.
+At [The Metropolitan Museum of Art](https://www.metmuseum.org), I spun up the first native app team, helped define the museum's [Open Access](https://www.metmuseum.org/about-the-met/policies-and-documents/open-access) initiative, and built the Museum's public API.  After recently wrapping up a major migration effort, the team is now building on top of a modern stack and architecture, using current engineering practices.
 
-Before joining the Met, I worked in Digital at the Museum of Modern Art (MoMA), on [moma.org](https://www.moma.org) and the native MoMA Audio+ app. A large part of the work was exploring new modes of interaction for the galleries: one-off pieces made to support particular exhibitions and education programs, and to enhance how visitors encountered the art.
+Before joining the Met, I was a developer at the Museum of Modern Art (MoMA), where I  was on the team that built [moma.org](https://www.moma.org) and the native MoMA Audio+ app. My favorite part of the of the work was getting away from the screen and into the galleries: projects supporting exhibitions and education programs, accessible interfaces for in-gallery kiosks, and prototypes that test new ways to experience the museum.
 
-My background is in field recording and sound design as much as in code. I hold a master's from NYU's Interactive Telecommunications Program (ITP), where curiosity and experimentation were central. That experience taught me the value of creating environments where people can explore ideas without fear of failure - an approach I bring to building both user-centered systems and collaborative teams.
-
-My work focuses on sustainable technical practices, championing open-source solutions, and creating collaborative environments where both technical excellence and professional growth thrive.
+Outside of coding, I have a background in sound design and field recording. I hold a master's from NYU's Interactive Telecommunications Program (ITP), a technology school in Tisch that values human curiosity and collaboration over tech for tech's sake. 
