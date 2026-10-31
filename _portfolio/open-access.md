@@ -26,4 +26,4 @@ Three years later the API was serving over 3 million requests a month. By mid-20
 - **[Met x Microsoft x MIT](https://www.metmuseum.org/about-the-met/policies-and-documents/open-access/met-microsoft-mit)** - AI prototypes built on the Open Access data.
 - **[Parsons data visualization](https://www.metmuseum.org/blogs/collection-insights/2020/met-api-parsons-data-visualization)** - students working directly with the API.
 
-Further reading: [Celebrating Three Years of Open Access at The Met](https://www.metmuseum.org/perspectives/met-api-third-anniversary) (2020, with Sofie Andersen) and [Connecting to art](https://increment.com/apis/metropolitan-museum-api-connecting-to-art/) (Increment, 2020).
+Further reading: [Celebrating Three Years of Open Access at The Met](https://www.metmuseum.org/perspectives/met-api-third-anniversary) (2020, with Sofie Andersen) and [Connecting to art](https://increment.com/apis/metropolitan-museum-api-connecting-to-art/) (Increment, 2020, with Jennie Choi).
