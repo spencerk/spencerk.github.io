@@ -18,9 +18,9 @@ The first release was a CSV of the whole collection, published on [GitHub](https
 
 In 2018 my team launched the [Collection API](https://metmuseum.github.io/) so partners, students, independent developers, and art tech nerds could query the collection directly.
 
-In 2020 the API was serving over 3 million requests a month. By mid-2026 it had served over 900 million.
+Three years later the API was serving over 3 million requests a month. By mid-2026 it had served over 900 million.
 
-## Who used it
+### Who used it
 
 - **Wikipedia and Wikidata** - Met artworks drew about 225 million views a year on Wikipedia by 2020.
 - **[Met x Microsoft x MIT](https://www.metmuseum.org/about-the-met/policies-and-documents/open-access/met-microsoft-mit)** - AI prototypes built on the Open Access data.
