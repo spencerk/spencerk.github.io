@@ -9,6 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
+[Download as PDF]({{ base_path }}/files/cv.pdf)
+
 ## Work experience
 
 * **Senior Manager, Application Development** at [The Metropolitan Museum of Art](https://www.metmuseum.org/)  
