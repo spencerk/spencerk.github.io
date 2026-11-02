@@ -11,7 +11,7 @@ Hello there!
 
 I lead the team that builds and runs the web platform and APIs at [The Metropolitan Museum of Art](https://www.metmuseum.org). The throughline of my career is providing access: getting data out of systems that were never meant to share it, and to the people who need it, inside the museum and out.
 
-At the Met, I spun up the first native app team, helped define the museum's [Open Access](https://www.metmuseum.org/about-the-met/policies-and-documents/open-access) initiative, and built the museum's public API. More recently, the team moved metmuseum.org off an internally hosted CMS and onto a cloud stack, section by section rather than in one cutover, and released semantic search for the collection.
+At the Met, I spun up the first native app team, helped define the museum's [Open Access](https://www.metmuseum.org/about-the-met/policies-and-documents/open-access) initiative, and built the museum's public API. More recently, the team moved metmuseum.org off an internally hosted CMS and onto a cloud stack and released semantic search on top of the newly rebuilt collection search.
 
 I manage six developers and a QA engineer, and most of what I do is structural: making room for code review, automated testing, and regular, uneventful releases.
 
