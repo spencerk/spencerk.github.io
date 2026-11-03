@@ -19,4 +19,4 @@ Before joining the Met, I was a developer at the Museum of Modern Art (MoMA), wh
 
 I came to software through sound design and field recording, and I hold a master's from NYU's Interactive Telecommunications Program (ITP), a technology school in Tisch that values human curiosity and collaboration over tech for tech's sake.
 
-Outside work I hack on hardware and play in my sound studio.
+Outside work I hack on hardware and conduct experiments in my sound studio.
