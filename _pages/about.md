@@ -13,7 +13,7 @@ I lead the team that builds and runs the web platform and APIs at [The Metropoli
 
 At the Met, I spun up the first native app team, helped define the museum's [Open Access](https://www.metmuseum.org/about-the-met/policies-and-documents/open-access) initiative, and built the museum's public API. More recently, the team moved metmuseum.org off an internally hosted CMS and onto a cloud stack and released semantic search on top of the newly rebuilt collection search.
 
-I manage six developers and a QA engineer, and most of what I do is structural: making room for code review, automated testing, and regular, uneventful releases.
+I manage six developers and a QA engineer, and most of what I do is structural: making room for code review, automated testing, and regular, uneventful releases. I've been on dozens of interview panels and hired both full-time staff and contractors.
 
 Before joining the Met, I was a developer at the Museum of Modern Art (MoMA), where I built the museum's first mobile app and was on the team that rebuilt [moma.org](https://www.moma.org). My favorite part of the work was getting away from the screen and into the galleries: projects supporting exhibitions and education programs, accessible interfaces for in-gallery kiosks, and prototypes that test new ways to experience the museum.
 
